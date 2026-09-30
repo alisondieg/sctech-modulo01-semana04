@@ -1,0 +1,31 @@
+const prompt = require("prompt-sync")();
+
+const frutas = ["maça", "banana", "abacate", "maracuja"];
+console.log(frutas);
+console.log(frutas.length);
+console.log("A ultima fruta é: " + frutas[frutas.length - 1]); // consulta a ultima posição do array
+frutas[0] = "Pera"; //Coloca na opçao 0 a pera no lugar da maça
+frutas[5] = "Uva"; //cria mais uma posição e coloca Uva lá
+frutas.pop;
+console.log(frutas);
+
+const nota6 = [6, 8, 7.7];
+console.log(nota6);
+
+const misto = ["Alison", 33, true];
+console.log(misto);
+console.log(misto.length);
+
+const vazio = [];
+console.log(vazio.length); //Tamanho do Array, quantas posições tem
+
+let nota1 = Number(prompt("Digite a nota 01: "));
+let nota2 = Number(prompt("Digite a nota 02: "));
+let nota3 = Number(prompt("Digite a nota 03: "));
+let notas = [nota1, nota2, nota3];
+console.log(notas);
+
+const letras = [];
+letras.push(nota1); // coloca no array o que quer, com o push
+letras.push(nota2);
+letras.push(nota3);
